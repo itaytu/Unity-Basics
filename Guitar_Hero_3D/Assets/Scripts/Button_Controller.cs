@@ -30,6 +30,7 @@ public class Button_Controller : MonoBehaviour
 
         if(Input.GetKeyUp(keyToPress)){
             meshRenderer.material = defaultColor;
+            isColliding = false;
         }
     }
 
